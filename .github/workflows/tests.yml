@@ -41,7 +41,7 @@ jobs:
       - name: Install dependencies
         run: |
           composer update --prefer-dist --no-progress
-      - name: Run script
+      - name: Run
         run: |
           php index.php
         env:
